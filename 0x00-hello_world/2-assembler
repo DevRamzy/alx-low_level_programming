@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o 1-main.asm 1-main.c
+gcc -S -o 2-main.asm 2-main.c
