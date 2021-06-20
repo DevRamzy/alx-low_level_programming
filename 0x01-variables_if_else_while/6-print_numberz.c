@@ -13,8 +13,8 @@ int main(void)
 int i;
 for (i = 0; i < 10; i++)
 {
-write("%i", i);
+printf("%i", i);
 }
-write("\n");
+printf("\n");
 return (0);
 }
