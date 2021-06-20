@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-char i;printf("Capital (upper) case characters:\n"); 
+char i;
 for(i='a'; i<='z'; i++)
-printf("%c ",i);
+printf("%c",i);
 for(i='A'; i<='Z'; i++)
-printf("%c ",i);
+printf("%c",i);
 printf("\n");
 return (0);
 }
