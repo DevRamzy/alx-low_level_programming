@@ -1,2 +1,2 @@
 #!/bin/bash
-objdump -d 100-main.c -M intel
+gcc -s -masm=intel 100-main.c
