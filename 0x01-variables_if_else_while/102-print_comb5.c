@@ -10,27 +10,27 @@
  */
 int main(void)
 {
-int i, j, i_quotient, j_quotient, i_remainder, j_remainder;
+int i, j, k, l, m, n;
 for (i = 0; i <= 99; i++)
 {
 for (j = 0; j <= 99; j++)
 {
 if (j > i)
 {
-i_quotient = i / 10;
-i_remainder = i % 10;
-j_quotient = j / 10;
-j_remainder = j % 10;
+k = i / 10;
+m = i % 10;
+l = j / 10;
+n = j % 10;
 if (!(i == 0 && j == 1))
 {
 putchar(',');
 putchar(' ');
 }
-putchar(i_quotient + '0');
-putchar(i_remainder + '0');
+putchar(k + '0');
+putchar(m + '0');
 putchar(' ');
-putchar(i_quotient + '0');
-putchar(i_remainder + '0');
+putchar(k + '0');
+putchar(m + '0');
 }
 }
 }
